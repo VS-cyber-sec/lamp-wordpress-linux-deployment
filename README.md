@@ -79,7 +79,7 @@ ssh -i ~/wordpress-key.pem ubuntu@YOUR_ELASTIC_IP
 ### 2 — Clone and configure
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/lamp-wordpress-pro.git
+git clone https://github.com/Vs-cyber-sec/lamp-wordpress-pro.git
 cd lamp-wordpress-pro
 cp config/config.example.env config/config.env
 nano config/config.env        # fill in DB password, domain, email, API key
