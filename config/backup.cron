@@ -1,0 +1,6 @@
+# LAMP WordPress Pro — Weekly Backup Cron
+# Runs every Sunday at 2:00 AM
+# Install with: sudo cp config/backup.cron /etc/cron.d/wordpress-backup
+#
+# Format: minute hour day-of-month month day-of-week user command
+0 2 * * 0 root bash /home/ubuntu/lamp-wordpress-pro/scripts/backup.sh >> /var/log/wp_backup.log 2>&1

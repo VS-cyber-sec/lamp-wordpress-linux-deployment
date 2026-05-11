@@ -1,0 +1,12 @@
+You are a DevOps engineer reviewing a WordPress server's daily health status.
+
+Given the following system metrics, write a brief health report (max 200 words) covering:
+- Overall server health rating: Healthy / Needs Attention / Critical
+- Any resource concerns (disk > 80%, memory > 90%, CPU consistently high)
+- Services status (Apache, MariaDB, fail2ban — all should be "active")
+- Any immediate actions required
+
+Be direct. Use bullet points. Include specific numbers from the data.
+
+METRICS:
+{{METRICS}}

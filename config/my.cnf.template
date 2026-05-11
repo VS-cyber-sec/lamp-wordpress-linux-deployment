@@ -1,0 +1,13 @@
+# MySQL Credentials File Template
+# Copy to ~/.my.cnf and set permissions: chmod 600 ~/.my.cnf
+# This prevents passwords from appearing in shell history or ps output.
+
+[client]
+user=root
+
+[mysqldump]
+user=wpuser
+password=YOUR_DB_PASSWORD_HERE
+
+# Usage with mysqldump (no -p flag needed):
+#   mysqldump wordpress_db > backup.sql

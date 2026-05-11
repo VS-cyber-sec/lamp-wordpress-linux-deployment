@@ -1,0 +1,27 @@
+# ─────────────────────────────────────────────
+#  LAMP WordPress Pro — .gitignore
+# ─────────────────────────────────────────────
+
+# NEVER commit actual config (contains passwords and API keys!)
+config/config.env
+
+# AI-generated reports (contain server telemetry)
+ai/reports/
+
+# Backup files
+/backup/
+*.sql
+*.sql.gz
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
